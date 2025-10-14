@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        Menu menu = new Menu();
-        
+
         Produk produk = new Produk();
+        Menu menu = new Menu(produk);
+        
+        
         
         while (true) {
             menu.daftarMenu();
