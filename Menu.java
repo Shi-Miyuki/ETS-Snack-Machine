@@ -2,7 +2,7 @@ public class Menu {
     Produk produk = new Produk();
 
     public Menu(Produk produk){
-        this.produk = produk 
+        this.produk = produk; 
     } 
     
     public void daftarMenu() {
